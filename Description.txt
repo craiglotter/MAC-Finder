@@ -1,0 +1,15 @@
+MAC Finder 
+
+MAC Finder is a simple script utility written for Commerce I.T. Its purpose is to control the copy of the correct The ISYS.ini files for the INET program found in the Commerce computer labs from the central file server to the local machine. 
+
+There is a central folder that contains a number of folders based on computers MAC addresses stored on the main Commerce file server. Each PCs MAC address thus corresponds to one such folder. Each folder contains an ISYS.ini configuration file. What makes these files different is the unique IUser value found in each one. The program therefore ensures that the correct file is copied to the local machine by creating the source directory path from the local machine's IP address and then copying the required file.
+
+Created by Craig Lotter, January 2003
+
+*********************************
+
+Project Details:
+
+Coded in C++ using Bloodshed Dev-C++ 5
+Implements simple concepts such as library calls and file IO.
+Level of Complexity: simple
